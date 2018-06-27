@@ -202,15 +202,24 @@ For common options for {type}s please check the https://github.com/elastic/logst
 
 ===== Configuration value types
 [id="array"]
+
 [id="boolean"]
+
 [id="bytes"]
+
 [id="codec"]
+
 [id="hash"]
+
 [id="number"]
+
 [id="password"]
+
 [id="uri"]
+
 [id="string"]
-https://www.elastic.co/guide/en/logstash/current/configuration-file-structure.html#plugin-value-types
+For informaltion check https://www.elastic.co/guide/en/logstash/current/configuration-file-structure.html#plugin-value-types[logstash documentation]
+
 endif::[]
 ifndef::env-github[]
 include::{include_path}/{type}.asciidoc[]
