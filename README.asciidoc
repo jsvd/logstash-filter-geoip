@@ -19,11 +19,10 @@ ifdef::env-github[]
 :toclevels: 5
 endif::[]
 
+ifndef::env-github[]
 [id="plugins-{type}s-{plugin}"]
-
 === Geoip filter plugin
 
-ifndef::env-github[]
 include::{include_path}/plugin_header.asciidoc[]
 endif::[]
 
