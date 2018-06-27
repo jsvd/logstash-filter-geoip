@@ -14,8 +14,9 @@ END - GENERATED VARIABLES, DO NOT EDIT!
 
 ifdef::env-github[]
 :toc:
+:toc-title:
 :toc-placement!: 
-:toclevels: 5
+:toclevels: 4
 endif::[]
 
 ifndef::env-github[]
