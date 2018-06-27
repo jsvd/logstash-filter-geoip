@@ -14,7 +14,6 @@ END - GENERATED VARIABLES, DO NOT EDIT!
 
 ifdef::env-github[]
 :toc:
-:toc-title: Table of Adventures
 :toc-placement!: 
 :toclevels: 5
 endif::[]
@@ -27,6 +26,9 @@ include::{include_path}/plugin_header.asciidoc[]
 endif::[]
 
 ifdef::env-github[]
+Geoip filter plugin
+===================
+
 toc::[]
 :logstash-ref: https://www.elastic.co/guide/en/logstash/current/plugins-outputs-elasticsearch.html
 endif::[]
