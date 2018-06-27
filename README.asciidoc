@@ -194,16 +194,19 @@ new template.
 Even if you don't use the `geo_point` mapping, the `[target][location]` field
 is still valid GeoJSON.
 
-[id="plugins-{type}s-{plugin}-common-options"]
 ifdef::env-github[]
-==== Common Options
+==== Other Documentation
 
-For common options for {type}s please check the https://github.com/elastic/logstash/blob/master/docs/include/{type}.asciidoc#common-options[documentation of logstash]
+===== Common Options
+
+For common options for {type}s please check the https://github.com/elastic/logstash/blob/master/docs/include/{type}.asciidoc#common-options[logstash documentation].
 
 [[array]][[boolean]][[bytes]][[codec]][[hash]][[number]][[password]][[uri]][[string]]
-For information about value types in configuration options check https://www.elastic.co/guide/en/logstash/current/configuration-file-structure.html#plugin-value-types[logstash documentation]
+===== Value types of configuration settings
+For information about value types in configuration options check https://www.elastic.co/guide/en/logstash/current/configuration-file-structure.html#plugin-value-types[logstash documentation].
 
 endif::[]
 ifndef::env-github[]
+[id="plugins-{type}s-{plugin}-common-options"]
 include::{include_path}/{type}.asciidoc[]
 endif::[]
