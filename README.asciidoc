@@ -19,9 +19,10 @@ END - GENERATED VARIABLES, DO NOT EDIT!
 ifndef::env-github[]
 include::{include_path}/plugin_header.asciidoc[]
 endif::[]
+
 ifdef::env-github[]
 :logstash-ref: https://www.elastic.co/guide/en/logstash/current/plugins-outputs-elasticsearch.html
-:toc:
+:toc: macro
 :toc-placement!:
 
 Here is my preamble paragraph, but I could really place the TOC anywhere! Lorem ipsum foo bar baz.
@@ -189,7 +190,10 @@ new template.
 Even if you don't use the `geo_point` mapping, the `[target][location]` field
 is still valid GeoJSON.
 
-
-
 [id="plugins-{type}s-{plugin}-common-options"]
+ifdef::env-github[]
+For common options for {type}s please check the https://www.elastic.co/guide/en/logstash/current/plugins-outputs-elasticsearch.html[documentation of logstash]
+endif::[]
+ifndef::env-github[]
 include::{include_path}/{type}.asciidoc[]
+endif::[]
