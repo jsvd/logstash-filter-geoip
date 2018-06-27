@@ -201,23 +201,7 @@ ifdef::env-github[]
 For common options for {type}s please check the https://github.com/elastic/logstash/blob/master/docs/include/{type}.asciidoc#common-options[documentation of logstash]
 
 ===== Configuration value types
-[id="array"]
-
-[id="boolean"]
-
-[id="bytes"]
-
-[id="codec"]
-
-[id="hash"]
-
-[id="number"]
-
-[id="password"]
-
-[id="uri"]
-
-[id="string"]
+[[string,array]]
 For informaltion check https://www.elastic.co/guide/en/logstash/current/configuration-file-structure.html#plugin-value-types[logstash documentation]
 
 endif::[]
