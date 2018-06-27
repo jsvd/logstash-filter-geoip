@@ -16,7 +16,18 @@ END - GENERATED VARIABLES, DO NOT EDIT!
 
 === Geoip filter plugin
 
+ifndef::env-github[]
 include::{include_path}/plugin_header.asciidoc[]
+endif::[]
+ifdef::env-github[]
+:logstash-ref: https://www.elastic.co/guide/en/logstash/current/plugins-outputs-elasticsearch.html
+:toc:
+:toc-placement!:
+
+Here is my preamble paragraph, but I could really place the TOC anywhere! Lorem ipsum foo bar baz.
+
+toc::[]
+endif::[]
 
 ==== Description
 
