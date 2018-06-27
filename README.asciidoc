@@ -197,6 +197,7 @@ is still valid GeoJSON.
 ifdef::env-github[]
 ==== Other Documentation
 
+[id="plugins-{type}s-{plugin}-common-options"]
 ===== Common Options
 
 For common options for {type}s please check the https://github.com/elastic/logstash/blob/master/docs/include/{type}.asciidoc#common-options[logstash documentation].
