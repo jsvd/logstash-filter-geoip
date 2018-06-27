@@ -203,6 +203,7 @@ For common options for {type}s please check the https://github.com/elastic/logst
 
 [[array]][[boolean]][[bytes]][[codec]][[hash]][[number]][[password]][[uri]][[string]]
 ===== Value types of configuration settings
+
 For information about value types in configuration options check https://www.elastic.co/guide/en/logstash/current/configuration-file-structure.html#plugin-value-types[logstash documentation].
 
 endif::[]
