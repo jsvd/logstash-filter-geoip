@@ -98,7 +98,9 @@ This plugin supports the following configuration options plus the <<plugins-{typ
 Also see <<plugins-{type}s-{plugin}-common-options>> for a list of options supported by all
 filter plugins.
 
+ifndef::env-github[]
 &nbsp;
+endif::[]
 
 [id="plugins-{type}s-{plugin}-cache_size"]
 ===== `cache_size`
